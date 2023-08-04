@@ -142,6 +142,12 @@
           (number "9" (effects (font (size 1.016 1.016))))
         )
       )
+      (symbol "BMI055_1_0"
+        (pin no_connect line (at 15.24 -22.86 180) (length 5.08)
+          (name "NC" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016))))
+        )
+      )
       (symbol "BMI055_1_1"
         (rectangle (start -10.16 20.32) (end 10.16 -30.48)
           (stroke (width 0) (type default))
@@ -2733,7 +2739,6 @@
       )
     )
   )
-
 
   (junction (at 118.11 201.93) (diameter 0) (color 0 0 0 0)
     (uuid 0598e95e-9f58-4699-9224-653a888bf619)
@@ -8614,6 +8619,7 @@
     (pin "1" (uuid ec30751d-8983-4b81-884e-7264fa79205a))
     (pin "10" (uuid 277284ab-efb7-4ce1-a71b-3bb082e77ebe))
     (pin "11" (uuid decbff26-0016-4361-8a42-23bbc005b74d))
+    (pin "2" (uuid dda29d69-5caa-4b27-b62b-ce8149366abd))
     (pin "12" (uuid e651a502-cfb4-482d-83fc-3e42e858d75b))
     (pin "13" (uuid d2132a5c-8828-4710-a7dd-a0700d0d9a84))
     (pin "14" (uuid 217ff747-7d53-4eba-83e7-8e231b5233c2))
